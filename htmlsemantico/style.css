@@ -1,0 +1,102 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.grupo{
+    display: flex;
+    flex-direction: column
+}
+.cabecalho{
+background-color: red;
+color: white;
+padding:10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+
+
+}
+.menu a:hover {
+color: black;
+
+
+
+
+}
+.conteudo {
+    display: flex;
+    
+
+}
+.navegacao{
+background-color: aqua;
+display: inline-block;
+width: 30%;
+padding: 10px;
+
+}
+.navegacao ul{
+    list-style: none;
+
+}
+.navegacao li{
+    margin-bottom: 10px;
+
+}
+.secao{
+background-color: greenyellow;
+display: inline-block;
+width: 70%;
+padding: 10px;
+
+}
+.rodapé{
+background-color: yellow;
+height: 70px;
+padding: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+align-items: center;
+
+}
+
+.secao p{
+    margin-bottom: 10px;
+    
+}
+.redes{
+    display: flex;
+    align-items: center;
+
+}
+.redes img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+
+}
+.redes a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.redes a:hover{
+    color: red;
+    opacity: 0.7;
+
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Semântico </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="group">
+      <header class="cabecalho">
+         <h1>site Semântico</h1>
+         <nav class="menu">
+           <a href="#">inicio</a>
+           <a href="#">sobre</a>
+           <a href="#">contato</a>
+         </nav> 
+          </header>
+          <div class="conteudo">
+          <nav class="navegacao">
+
+            <h2>menu lateral</h2>
+            <ul>
+              <li>perfil</li>
+              <li>configuracoes</li>
+              <li>ajuda</li>
+            </ul>
+          </nav>
+          <section class="secao">
+            <h3>painel</h3>
+            <p>nome: <span id="nomeUsuario">leonardo</span></p>
+            <p>curso: <span id="nomecurso">desenvolvimento web front end</span></p>
+            <p>status: <span id="nomeStatus">ativo</span></p>
+            <hr>
+            <h3>alterar o nome</h3>
+            <div class="formulario">
+              <input type="text" name="inputNome" id="inputNome">
+              <button onclick="alterarNome()">alterar</button>
+            </div>
+             <h3>alterar o Curso</h3>
+            <div class="formulario">
+              <input type="text" name="inputcurso" id="inputcurso">
+              <button onclick="alterarCurso()">alterar</button>
+            </div>
+            <h3>alterar o Status</h3>
+            <div class="formulario">
+              <input type="text" name="inputStatus" id="inputStatus">
+              <button onclick="alterarStatus()">alterar</button>
+            </div>
+          </section>
+      </div>
+      <footer class="rodapé">
+        <p>&copy; desenvolvido por <strong>Leonardo</strong></p>
+        <div class="redes">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Intagram">Intagram</a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/24/733/733553.png " alt="Github">Github</a>
+            
+        </div>
+
+      </footer>
+  </div>
+  <script src="script.js"></script>
+
+    
+</body>
+</html>
+
